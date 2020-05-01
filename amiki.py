@@ -79,7 +79,7 @@ def send():
  
 
 base = Tk()
-base.title("Corona Worrier")
+base.title("Corona Warrior")
 base.geometry("400x593")
 base.resizable(width=FALSE, height=FALSE)
 ChatLog = Text(base, bd=0, bg="#ffffff", height="8", width="50", font="Arial")
