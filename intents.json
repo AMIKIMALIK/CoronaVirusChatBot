@@ -1,0 +1,163 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello",
+           "Good day","Hi", "Is anyone there?", "Whats up"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?","G'day! How can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "no answer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you for CoronaVirus"],
+         "context": [""]
+        },
+        {"tag": "coronavirus_symptoms",
+         "patterns": ["What is the symptoms of coronavirus",  "how to identify coronavirus", "covid19 symptoms", "how to detect coronavirus","how to find i am effected by coronavirus" ],
+         "responses": ["Common Symptoms of COVID19:\n1)Cough\n2)Fever\n3)Shortness of breath\n4)Muscle aches\n5)Sore throat\n6)Unexplained loss of taste or smell\n7)Diarrhea\n8)Headache"],
+         "context": [""]
+        },
+        {"tag":"what_coronavirus",
+          "patterns": ["what is coronavirus","what is covid19","what is covid","tell me about coronavirus","coronavirus","chinavirus"],
+          "responses": ["Coronaviruses are a large family of viruses which may cause illness in animals or humans.  In humans, several CoronaViruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered CoronaVirus causes CoronaVirus disease COVID-19 first identified in Wuhan city, China."],
+          "context": [""]
+        },
+        {"tag": "what_i_do_coronavirus_symptoms",
+          "patterns": ["what should i do if i have covid19 symptoms","when should i take medical care","what should i do if i have covid19 symptoms and when should i take medical care"],
+          "responses": ["If you have minor symptoms, such as a slight cough or a mild fever, there is generally no need to seek medical care. Stay at home, self-isolate and monitor your symptoms. Follow national guidance on self-isolation.\n\nHowever, if you live in an area with malaria or dengue fever it is important that you do not ignore symptoms of fever.  Seek medical help.  When you attend the health facility wear a mask if possible, keep at least 1 metre distance from other people and do not touch surfaces with your hands. If it is a child who is sick help the child stick to this advice.\n\nSeek immediate medical care if you have difficulty breathing or pain/pressure in the chest. If possible, call your health care provider in advance, so he/she can direct you to the right health facility."],
+          "context": [""]
+        },
+        {"tag": "physical_distancing",
+          "patterns": ["what is physical distancing","what is social distancing","social distancing","tell me about social distancing"],
+          "responses": ["Physical distancing measures should be used when people are living in their own homes, with or without additional support from friends, family and carers."],
+          "context": [""]
+        },
+        {"tag": "coronavirus_spread",
+        "patterns": ["how does the new coronavirus spread?","how to coronavirus spread","covid spread","coivid19 spread"],
+         "responses": ["As of now, researchers know that the new coronavirus is spread through droplets released into the air when an infected person coughs or sneezes. The droplets generally do not travel more than a few feet, and they fall to the ground (or onto surfaces) in a few seconds — this is why social and physical distancing is effective in preventing the spread.","The disease spreads largely through droplets that are emitted when someone who is infected coughs or sneezes. These droplets can linger on surfaces and then reach your lungs when you touch these surfaces and then touch your mouth or face."],
+         "context": [""]
+        },
+        {"tag": "history coronavirus",
+          "patterns": ["how did this new coronavirus spread to humans?","history of coronavirus","history of covid19","origin of corona virus"],
+          "responses" : ["COVID-19 appeared in Wuhan, a city in China, in December 2019. Although health officials are still tracing the exact source of this new coronavirus, early hypotheses thought it may be linked to a seafood market in Wuhan, China. Some people who visited the market developed viral pneumonia caused by the new coronavirus. A study that came out on Jan. 25, 2020, notes that the individual with the first reported case became ill on Dec. 1, 2019, and had no link to the seafood market. Investigations are ongoing as to how this virus originated and spread. "],
+          "context": [""]
+        },
+        {"tag":"incubation period",
+          "patterns": ["what is the incubation period for covid19","incubation"],
+          "responses": ["It appears that symptoms are showing up in people within 14 days of exposure to the virus."],
+          "context" : [""]
+        },
+        {"tag": "weather",
+          "patterns": ["is this infection going to stay or disappear","will warmer weather help to contain the virus spread","will it reappear once colder weather returns"],
+          "responses": ["This is particularly hard to predict. Some viral diseases (e.g. flu) are largely seasonal and tend to spread more easily in winters, rather than in the heat of the summer. We have no idea, as of now, whether COVID-19 will fall into this category. It could vanish altogether after the summer or — a perhaps more likely scenario — it could appear again in a second wave. We simply don’t know yet."],
+          "context": [""]
+        },
+        {"tag": "worried",
+          "patterns": ["How worried should I be, personally","i am worried about coronavirus"],
+          "responses": ["If you are under the age of about 60 and with no pre-existing conditions, you might not even notice that you have been infected with COVID-19. If you are elderly or have a medical condition that compromises your immunity, you should reduce close physical contact with others, even family members, for the time being, and monitor your health carefully."],
+          "context": [""]
+        },
+        {"tag": "testing",
+          "patterns": ["testing for coronavirus"],
+          "responses": ["Two kinds of tests are available for COVID-19:\n\n1) A viral test tells you if you have a current infection.\n2) An antibody test tells you if you had a previous infection\nAn antibody test may not be able to show if you have a current infection, because it can take 1-3 weeks to make antibodies after symptoms occur. We do not know yet if having antibodies to the virus can protect someone from getting infected with the virus again, or how long that protection might last."],
+          "context": [""]
+        },
+        {"tag": "mask",
+          "patterns": ["how to wear a cloth face covering","how to wear a mask","is it required to wear mask"],
+          "responses": ["Cloth face coverings should—\n\nfit snugly but comfortably against the side of the face\nbe secured with ties or ear loops\ninclude multiple layers of fabric\nallow for breathing without restriction\nbe able to be laundered and machine dried without damage or change to shape"],
+          "context": [""]
+        },
+        {"tag": "quarantine",
+          "patterns": ["what is quarantine","quarantine"],
+          "responses": ["Quarantine is used to keep someone who might have been exposed to COVID-19 away from others. Someone in self-quarantine stays separated from others, and they limit movement outside of their home or current place. A person may have been exposed to the virus without knowing it (for example, when traveling or out in the community), or they could have the virus without feeling symptoms. Quarantine helps limit further spread of COVID-19."],
+          "context": [""]
+        },
+        {"tag": "isolation",
+          "patterns": ["what is isolation","isolation"],
+          "responses": ["Isolation is used to separate sick people from healthy people. People who are in isolation should stay home. In the home, anyone sick should separate themselves from others by staying in a specific “sick” bedroom or space and using a different bathroom (if possible)."],
+          "context": [""]
+        },
+        {"tag": "difference",
+          "patterns": ["what is difference between quarantine and isolation"],
+          "responses": ["Quarantine: Quarantine is used to keep someone who might have been exposed to COVID-19 away from others. Someone in self-quarantine stays separated from others, and they limit movement outside of their home or current place. A person may have been exposed to the virus without knowing it (for example, when traveling or out in the community), or they could have the virus without feeling symptoms. Quarantine helps limit further spread of COVID-19.\n\nIsolation: Isolation is used to separate sick people from healthy people. People who are in isolation should stay home. In the home, anyone sick should separate themselves from others by staying in a specific “sick” bedroom or space and using a different bathroom (if possible)."],
+          "context": [""]
+        },
+        {"tag": "risk",
+          "patterns": ["who are at high risk","high risk"],
+          "responses": ["Based on what we know now, those at high-risk for severe illness from COVID-19 are:\n\n1) People 65 years and older\n2) People who live in a nursing home or long-term care facility\n3) People of all ages with underlying medical conditions, particularly if not well controlled, including:\n\n-> People with chronic lung disease or moderate to severe asthma\n-> People who have serious heart conditions\n-> People who are immunocompromised\n-> Many conditions can cause a person to be immunocompromised, including cancer treatment, smoking, bone marrow or organ transplantation, immune deficiencies, poorly controlled HIV or AIDS, and prolonged use of corticosteroids and other immune weakening medications\n-> People with severe obesity (body mass index [BMI] of 40 or higher)\n-> People with diabetes\n-> People with chronic kidney disease undergoing dialysis\n-> People with liver disease"],
+          "context": [""]
+        },
+        {"tag": "can",
+          "patterns": ["what you can do","what i can do","what is best for me","how to stay safe from coronavirus","what are the guidelines"],
+          "responses": ["-> Stay home if possible.\n-> Wash your hands often.\n-> Take everyday precautions to keep space between yourself and others (stay 6 feet away, which is about two arm lengths).\n-> Keep away from people who are sick.\n-> Stock up on supplies.\n-> Clean and disinfect frequently touched services.\n-> Avoid all cruise travel and non-essential air travel.\n-> Call your healthcare professional if you have concerns about COVID-19 and your underlying condition or if you are sick."],
+          "context": [""]
+        },
+        {"tag": "help",
+          "patterns": ["where to get help","need help","goverment contact number","where to call for coronavirus","i need help"],
+          "responses": ["Contact to:\n->Helpline No: +91-11-23978046\n->Helpline Email ID : ncov2019@gov.in"],
+          "context": [""]
+        },
+        {"tag": "vaccine",
+          "patterns": ["Is there a vaccine against it, or a medicine I can take if I get infected","is coronavirus vaccine developed"],
+          "responses": ["No, not yet, although many laboratories around the world are working on this."],
+          "context": [""]
+        },
+        {"tag": "prevention",
+          "patterns": ["how to prevent my self","how to protect from coronavirus","Is there anything I can do to prevent myself and others from getting it","protect your self"],
+          "responses": ["Follow Some Guidance to Protect Your Self: \n1) Avoid contact with someone who is displaying symptoms of CoronaVirus (high temperature and/or new and continuous cough)\n2) Stay at home and only go outside for food, health reasons or work (but only if you can’t work from home)\n3) Only take one form of exercise a day, for example a run, walk or cycle alone or with members of your household\n4) Stay 2 metres (6 feet) away from other people at all times If you go out\n5) Wash your hands as soon as you get home\n6) Do not meet others, even friends or family - if parents does not live together, children under 18 can be moved between their parent homes as long as no-one in either household has symptoms\n7) Avoid non-essential use of public transport - when possible, alter your travel times to avoid rush hour\n8) Work from home, where possible - your employer should support you to do this\n9) Avoid gatherings with friends and family - keep in touch using remote technology such as phone, internet, and social media\n10) Use phone or online services to contact your GP or other essential services"],
+          "context": [""]
+        },
+        {"tag": "hand wash",
+          "patterns": ["how to wash  hand","when to wash hand","is hand wash effective"],
+          "responses": ["1) Wash your hands more often with soap and water for at least 20 seconds, or use a hand sanitiser\n2) Wash your hand when you get home or into work, when you blow your nose, sneeze or cough, eat or handle food\n3) Avoid touching your eyes, nose and mouth with unwashed hands\n4) Avoid close contact with people who have symptoms\n5) Cover your cough or sneeze with a tissue, then throw the tissue in a bin and wash your hands\n6) Clean and disinfect frequently touched objects and surfaces in your home"],
+          "context": [""]
+        },
+         {"tag": "how are you",
+         "patterns": ["how are you","how are you doing","how are you going"],
+         "responses": ["I'm good! How can i help","I'm good. What can I do for you?","I'm good","I'm feeling lucky. How can I help?","I'm feeling helpful. What can i do for you?","I'm great.What can I do for you?", "Doing great, thanks. What can I do for you?","I'm doing great, thanks for asking. Anything I can help with?"],
+         "context": [""]
+        },
+        {"tag": "your name",
+         "patterns": ["what is your name","who are you"],
+         "responses": ["I'm your Corona Helper"],
+         "context": [""]
+        },
+        {"tag": "good morning",
+         "patterns": ["good morning","morning"],
+         "responses": ["Morning!","Good Morning!","Nice to see you!"],
+         "context": [""]
+        },
+        {"tag": "good afternoon",
+         "patterns": ["good afternoon","noon"],
+         "responses": ["Noon!","Good Afternoon!","Nice to see you!"],
+         "context": [""]
+        },
+       {"tag": "namaskar",
+         "patterns": ["namaskar","namaste"],
+         "responses": ["Namaste","Namaskar"],
+         "context": [""]
+       },
+        {"tag": "good night",
+         "patterns": ["good night","night"],
+         "responses": ["Night!","Good night!","Nice to see you!","Sleep well!","Have a sweet dream!"],
+         "context": [""]},
+        {"tag": "good evening",
+         "patterns": ["good evening","evening"],
+         "responses": ["Evening!","Good evening!","Nice to see you!","Have a beautiful evening","Have a joyful evening. How i can help you"],
+         "context": [""]
+        }
+]
+}
